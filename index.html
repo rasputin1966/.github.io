@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal</title>
+    <!-- Vinculación del archivo de estilos CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cabecera de la página -->
+    <header>
+        <h1>Bienvenidos a Mi Página Web Personal</h1>
+        <img src="FOTOPERFIL.jpg"alt="foto perfil" height="75px" width="75px" >
+        <nav>
+            <!-- Menú de navegación -->
+            <ul>
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#portfolio">Portafolio</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de presentación -->
+    <section id="about">
+        <h2>Sobre mí</h2>
+        <p>Hola, soy RULYS RODOLFO MÉNDEZ MÉNDEZ, esta es mi página web personal. Desarrollador web apasionado por crear soluciones creativas en mis ratos de ocio y descanso. </p>
+            <p style="text-align: justify"> Profesor de Castellano y Literatura egresado de la Universidad Pedagógica Experimental Libertador-Instituto Pedagógico Luis Beltrán Prieto Figueroa, Barquisimeto estado Lara Venezuela.
+                Especialización en Evaluación Educativa, Universidad Valle del Momboy, Valera estado Trujillo Venezuela.
+                Maestría en Gerencia Educativa, Universidad Nororiental Privada "Gran Mariscal de Ayacucho”, Barcelona estado Anzoátegui Venezuela.
+                Rulys Méndez, Profesor de Castellano y Literatura con más de 25 años de experiencia trabajando junto al equipo ejecutivo de Liceo Bolivariano Sanare,
+                se especializa en tecnología administrativa y es responsable de educar a jóvenes y adultos sobre el castellano y la literatura, incluidos la evaluación educativa, 
+                gerencia educativa, procedimientos de comunicación masiva, y aplicaciones organizacionales. Soy una persona de fuerza motivadora en el lugar de trabajo, utiliza su actitud positiva, y energía incansable para alentar a otros a un trabajo duro en la obtención del éxito. Me inspiro en mi esposa y mis tres hijos. En mi tiempo libre, me gusta caminar, leer, e interactuar sobre lo tecnológico, diseñar páginas web como hobby, videojuegos con mis hijos.
+            </p>
+    </section>
+
+    <!-- Sección de portafolio -->
+    <section id="portfolio">
+        <h2>Portafolio</h2>
+        <div class="project">
+            <h3>Proyecto 1</h3>
+            <p>Descripción del proyecto 1.</p>
+            <a href="file:///C:/Users/user/Desktop/PRUEBITAS%20HTML,CSS/MI%20PROYECTO/final/index.html"> texto ancla </a>
+            
+        </div>
+        <div class="project">
+            <h3>Proyecto 2</h3>
+            <p>Descripción del proyecto 2.</p>
+        </div>
+    </section>
+
+    <!-- Sección de contacto -->
+    <section id="contact">
+        <h2>Contacto</h2>
+        <form id="contact-form">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+        <p>Puedes contactarme a través de mi correo electrónico: mr2kalix@gmail.com.</p>
+    <footer>
+        <p>&copy; 2024 mr2kalix@gmail.com. Todos los derechos Reservados.</p>
+    </footer>
+    <!-- Vinculación del archivo de scripts JavaScript -->
+    <script src="scripts.js"></script>
+</body>
+</html>
